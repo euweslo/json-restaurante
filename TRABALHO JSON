@@ -1,0 +1,100 @@
+{
+  "restaurante": {
+    "nome": "Toca do Sabor",
+    "localizacao": "Rua Biguá, 999, Parque Universitário",
+    "cardapio": [
+      {
+        "prato": "Pizza Margherita",
+        "preco": 29.90,
+        "disponibilidade": true,
+        "ingredientes": ["massa", "molho de tomate", "queijo", "manjericão"]
+      },
+      {
+        "prato": "Risoto de Cogumelos",
+        "preco": 35.50,
+        "disponibilidade": true,
+        "ingredientes": ["arroz", "cogumelos", "caldo de legumes", "queijo parmesão"]
+      },
+      {
+        "prato": "Sushi Mix",
+        "preco": 45.00,
+        "disponibilidade": false,
+        "ingredientes": ["arroz", "peixe cru", "alga nori", "vegetais"]
+      }
+    ],
+    "pedidos": [
+      {
+        "pedido_id": 1,
+        "cliente_id": 101,
+        "itens": ["Pizza Margherita", "Risoto de Cogumelos"],
+        "total": 65.40
+      },
+      {
+        "pedido_id": 2,
+        "cliente_id": 102,
+        "itens": ["Sushi Mix"],
+        "total": 45.00
+      },
+      {
+        "pedido_id": 3,
+        "cliente_id": 103,
+        "itens": ["Pizza Margherita"],
+        "total": 29.90
+      }
+    ],
+    "clientes": [
+      {
+        "cliente_id": 101,
+        "nome": "Wesley Freitas",
+        "telefone": "1234-5678"
+      },
+      {
+        "cliente_id": 102,
+        "nome": "Hugo Silva",
+        "telefone": "2345-6789"
+      },
+      {
+        "cliente_id": 103,
+        "nome": "José Rogério",
+        "telefone": "3456-7890"
+      }
+    ],
+    "funcionarios": [
+      {
+        "funcionario_id": 201,
+        "nome": "Rafael Pombal",
+        "cargo": "Chef",
+        "salario": 4500.00
+      },
+      {
+        "funcionario_id": 202,
+        "nome": "Roger Roberto",
+        "cargo": "Garçom",
+        "salario": 2500.00
+      },
+      {
+        "funcionario_id": 203,
+        "nome": "Luiza Mendes",
+        "cargo": "Caixa",
+        "salario": 2200.00
+      }
+    ],
+    "fornecedores": [
+      {
+        "fornecedor_id": 301,
+        "nome": "Fornecimentos da Terra",
+        "produto_fornecido": "Vegetais"
+      },
+      {
+        "fornecedor_id": 302,
+        "nome": "Delícias do Mar",
+        "produto_fornecido": "Peixe"
+      },
+      {
+        "fornecedor_id": 303,
+        "nome": "Queijos e Mais",
+        "produto_fornecido": "Queijos"
+      }
+    ]
+  }
+}
